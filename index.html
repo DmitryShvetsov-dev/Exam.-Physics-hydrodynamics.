@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ТЕСТ ПО ФИЗИКЕ</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <script src="./script.js"></script>
+    <p class="name">ТЕСТ ПО ФИЗИКЕ</p>
+    <div class="start">
+      <button id="start" onclick="start()">НАЧАТЬ ТЕСТ</button>
+    </div>
+    <div class="firstQuestion question" id="question1">
+      <img src="./pictures/variant1.jpg" alt="q1" />
+      <p id="questionText1" class="questionText">
+        ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        beatae, reprehenderit id ut neque blanditiis voluptate ipsum nam autem
+        consectetur deserunt corporis, itaque suscipit labore facere nulla at
+        odio adipisci.
+      </p>
+      <input type="number" id="answerInput1" class="answerInput" />
+    </div>
+    <div class="secondQuestion question" id="question2">
+      <img src="./pictures/variant2.jpg" alt="q2" />
+      <p id="questionText2" class="questionText">
+        ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        beatae, reprehenderit id ut neque blanditiis voluptate ipsum nam autem
+        consectetur deserunt corporis, itaque suscipit labore facere nulla at
+        odio adipisci.
+      </p>
+      <input type="number" id="answerInput2" class="answerInput" />
+    </div>
+    <div class="thirdQuestion question" id="question3">
+      <img src="./pictures/variant3.jpg" alt="q3" />
+      <p id="questionText3" class="questionText">
+        ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        beatae, reprehenderit id ut neque blanditiis voluptate ipsum nam autem
+        consectetur deserunt corporis, itaque suscipit labore facere nulla at
+        odio adipisci.
+      </p>
+      <div class="flex">
+        <input
+          type="number"
+          id="answerInput3_1"
+          class="answerInput"
+          placeholder="сечение А-А"
+        />
+        <input
+          type="number"
+          id="answerInput3_2"
+          class="answerInput"
+          placeholder="сечение Б-Б"
+        />
+      </div>
+    </div>
+    <div class="fourthQuestion question" id="question4">
+      <img src="./pictures/variant4.jpg" alt="q4" />
+      <p id="questionText4" class="questionText">
+        ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        beatae, reprehenderit id ut neque blanditiis voluptate ipsum nam autem
+        consectetur deserunt corporis, itaque suscipit labore facere nulla at
+        odio adipisci.
+      </p>
+      <div class="flex">
+        <input
+          type="number"
+          id="answerInput4_1"
+          class="answerInput"
+          placeholder="отрывающее усилие"
+        />
+        <input
+          type="number"
+          id="answerInput4_2"
+          class="answerInput"
+          placeholder="сдвигающее усилие"
+        />
+      </div>
+    </div>
+    <div id="button">
+      <button id="confirm" onclick="confirm()">ПОДТВЕРДИТЬ ОТВЕТЫ</button>
+    </div>
+  </body>
+</html>
